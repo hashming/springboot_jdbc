@@ -18,7 +18,7 @@ public class UserController {
 
     /*@GetMapping("/all")
     public Object findAllUser(@RequestParam(name = "pageNum",required = true,defaultValue = "1")int pageNum,@RequestParam(name = "pageSize",required = true,defaultValue = "10")int pageSize){
-        return userService.findAllUser(pageNum, pageSize);
+        return userService.findAllUser(pageNum, page-+Size);
     }*/
 
     @PostMapping("/all")
